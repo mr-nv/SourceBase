@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SourceBase", "SourceBase\SourceBase.vcxproj", "{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug CSGO|Win32 = Debug CSGO|Win32
+		Debug CSS|Win32 = Debug CSS|Win32
+		Debug DODS|Win32 = Debug DODS|Win32
+		Debug TF2|Win32 = Debug TF2|Win32
+		Release CSGO|Win32 = Release CSGO|Win32
+		Release CSS|Win32 = Release CSS|Win32
+		Release DODS|Win32 = Release DODS|Win32
+		Release TF2|Win32 = Release TF2|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug CSGO|Win32.ActiveCfg = Debug CSGO|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug CSGO|Win32.Build.0 = Debug CSGO|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug CSS|Win32.ActiveCfg = Debug|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug CSS|Win32.Build.0 = Debug|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug DODS|Win32.ActiveCfg = Debug DODS|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug DODS|Win32.Build.0 = Debug DODS|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug TF2|Win32.ActiveCfg = Debug TF2|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Debug TF2|Win32.Build.0 = Debug TF2|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release CSGO|Win32.ActiveCfg = Release CSGO|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release CSGO|Win32.Build.0 = Release CSGO|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release CSS|Win32.ActiveCfg = Release|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release CSS|Win32.Build.0 = Release|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release DODS|Win32.ActiveCfg = Release DODS|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release DODS|Win32.Build.0 = Release DODS|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release TF2|Win32.ActiveCfg = Release TF2|Win32
+		{3C2E32E0-D8F2-4B5C-9CD9-2588A81D063D}.Release TF2|Win32.Build.0 = Release TF2|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

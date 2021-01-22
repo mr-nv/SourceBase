@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Startup">
+      <UniqueIdentifier>{604f5ba6-9008-4e6a-9205-2593393ea590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0e05f2ac-c029-40a8-9e2c-5fc6e6a1f65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{3bdce0d9-e83c-4852-b326-a40ef9d26378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{e23066e2-d60b-4de5-a01e-7cec21aa2b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HL">
+      <UniqueIdentifier>{cce84bfe-2dfd-4943-9b3f-76e608d76005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceBase">
+      <UniqueIdentifier>{a6815ab9-779d-4c30-bd95-b38e6c423afa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Utils\VMethod.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Startup\Interface.h">
+      <Filter>Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PETools.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CRC32.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\peb.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Error\Error.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\XStr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FindPattern.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\HL.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\SDK.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Vector3.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Entity.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\NVManager.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\SourceBase.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Engine.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\EntList.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\EngineCvar.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Random.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Trace.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Local.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Surface.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\Font.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\ISBObject.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\IVarBase.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\SBVar.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\CmdBase.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\SBCmd.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\CmdArgs.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\Weapon.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="HL\ModelInfo.h">
+      <Filter>HL</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceBase\Console.h">
+      <Filter>SourceBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Startup\DllMain.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Startup\Interface.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PETools.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\CRC32.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Startup\Startup.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="Error\Error.cpp">
+      <Filter>Error</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Panel.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\XStr.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FindPattern.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Client.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\HL.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Vector3.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Entity.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\NVManager.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\SourceBase.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Engine.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\EntList.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\EngineCvar.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Random.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Trace.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Local.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Surface.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\Font.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\SBVar.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\CmdBase.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\SBCmd.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\CmdArgs.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\Weapon.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="HL\ModelInfo.cpp">
+      <Filter>HL</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceBase\Console.cpp">
+      <Filter>SourceBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
